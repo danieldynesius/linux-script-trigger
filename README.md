@@ -14,7 +14,8 @@ which in turn triggers python scripts (paths to scripts are coded inside)
 ```
 chmod +x wakeup_and_run.sh
 sudo systemctl daemon-reload
-sudo systemctl restart WakeUpToRunScript.timer
+sudo systemctl enable WakeUpToRunScript.timer
+sudo systemctl start WakeUpToRunScript.timer
 ```
 
 Thats it.
