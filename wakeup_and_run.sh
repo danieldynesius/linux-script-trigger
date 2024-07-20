@@ -52,6 +52,3 @@ else
         run_python_script "$script_path" "${SCRIPTS_LOGS[$script_path]}"
     done
 fi
-
-
-#/home/ph0s/code/read-dropbox/read_and_post.py
